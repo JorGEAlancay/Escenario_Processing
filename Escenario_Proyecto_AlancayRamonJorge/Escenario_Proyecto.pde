@@ -11,8 +11,9 @@ public void setup(){
   img.posicion= new PVector(width/2,height/2);
    estrellas= new Estrellas();
   goku = new Goku();
-  goku.posicion= new PVector(width/2,height/2);
-  goku.velocidad = new PVector(10,10);
+  
+   goku.setPosicion(new PVector(width/2,height/2));
+  goku.setVelocidad(new PVector(10,10));
   cacodemon = new Cacodemon(new PVector(height/20,height/3),new PVector(0,10));
  
 }
